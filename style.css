@@ -1,0 +1,121 @@
+body {
+  font-family: Helvetica;
+  margin: 0px;
+}
+
+.mynavbar {
+  background-color: white;
+  height: 70px;
+  border-bottom: 1px solid grey;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none !important;
+  color: grey;
+  margin-right: 20px;
+}
+
+.navbar-links a:hover {
+  color: red;
+}
+
+.navbar-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: grey;
+}
+
+.hamburger:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.avatar-small {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.section h1 {
+  color: black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.section h2 {
+  font-size: 20px;
+}
+
+.section p {
+  font-size: 14px;
+}
+
+.pays-picture {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.image1 {
+  height : auto;
+  max-width: 80%;
+}
+
+.footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+  text-align: center;
+}
+.footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+.footer a:hover {
+  color: white;
+}
+.banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("http://www.voyel.com/files/hervouetvoyel/publications/kerala-maldives/IMAGE%20TEST.jpg");
+  background-size: cover;
+  padding: 150px 30px;;
+}
+#mc_embed_signup {
+  text-align: center;
+  padding: 50px
+}
